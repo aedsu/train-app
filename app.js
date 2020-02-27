@@ -7,7 +7,6 @@ const sassMiddleware = require('node-sass-middleware');
 
 const indexRouter = require('./routes/index');
 const assignmentsRouter = require('./routes/assignments');
-
 const app = express();
 
 // view engine setup
