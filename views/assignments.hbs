@@ -1,0 +1,25 @@
+<div class="container-fluid">
+    <h1>Asignaciones</h1>
+    <table class="table table-striped table-dark">
+        <thead>
+        <tr>
+            <th scope="col">Nombre Cliente</th>
+            <th scope="col">Nombre Entrenador</th>
+            <th scope="col">Nivel satisfacción<th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each assignments}}
+            <tr>
+                <td>{{clientName}}</td>
+                <td>{{trainerName}}</td>
+                <td>
+
+
+                        {{satisfaction}} %
+               </td>
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
+</div>

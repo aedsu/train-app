@@ -1,0 +1,18 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+.star-rating a {
+  display: inline-block;
+  color: #95a5a6; }
+
+.star-rating:hover a {
+  color: #f39c12; }
+
+.star-rating:hover a:hover ~ a {
+  color: #95a5a6; }
+
+/*# sourceMappingURL=style.css.map */

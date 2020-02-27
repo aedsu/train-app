@@ -1,0 +1,39 @@
+<div class="container-fluid">
+<h1>Entrenadores</h1>
+<table class="table table-striped table-dark">
+    <thead>
+    <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Reputación</th>
+        <th scope="col">Plazas</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each trainers}}
+    <tr>
+        <td>{{name}}</td>
+        <td>{{reputation}}</td>
+        <td>{{seats}}</td>
+    </tr>
+    {{/each}}
+    </tbody>
+</table>
+    <h1>Clientes</h1>
+    <table class="table table-striped table-dark">
+        <thead>
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Importancia Reputación</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each clients}}
+            <tr>
+                <td>{{name}}</td>
+                <td>{{trainerImportance}}</td>
+            </tr>
+        {{/each}}
+
+        </tbody>
+    </table>
+    <a class="btn btn-primary float-right" href="/assignments" role="button">¡Asigna!</a></div>
